@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const PASSWORD = process.env.PASSWORD || "tiger13012013"
+const PASSWORD = process.env.PASSWORD
 
 
 const URL =  `mongodb+srv://Shashank:${PASSWORD}@realtime-food-delivery.nnue1.mongodb.net/cloud-notebook?retryWrites=true&w=majority`
